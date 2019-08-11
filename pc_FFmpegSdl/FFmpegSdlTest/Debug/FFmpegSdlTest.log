@@ -1,0 +1,30 @@
+﻿生成启动时间为 2019/8/12 7:11:32。
+     1>项目“D:\VideoProject\FFmpegAndSDL\pc_FFmpegSdl\FFmpegSdlTest\FFmpegSdlTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\FFmpegSdlTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\VS\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\FFmpegSdlTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\VS\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\FFmpegSdlTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FFmpegSdlTest.cpp
+         FFmpegSdlTest.cpp
+     1>d:\videoproject\ffmpegandsdl\pc_ffmpegsdl\ffmpegsdltest\ffmpegsdltest.cpp(76): warning C4018: “<”: 有符号/无符号不匹配
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\FFmpegSdlTest.exe.embed.manifest.res" Debug\FFmpegSdlTest_manifest.rc 
+       Link:
+         E:\Program Files (x86)\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VideoProject\FFmpegAndSDL\pc_FFmpegSdl\Debug\FFmpegSdlTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FFmpegSdlTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VideoProject\FFmpegAndSDL\pc_FFmpegSdl\Debug\FFmpegSdlTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VideoProject\FFmpegAndSDL\pc_FFmpegSdl\Debug\FFmpegSdlTest.lib" /MACHINE:X86 Debug\FFmpegSdlTest.exe.embed.manifest.res
+         Debug\FFmpegSdlTest.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\FFmpegSdlTest.exe.embed.manifest" /manifest Debug\FFmpegSdlTest.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         FFmpegSdlTest.vcxproj -> D:\VideoProject\FFmpegAndSDL\pc_FFmpegSdl\Debug\FFmpegSdlTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\FFmpegSdlTest.unsuccessfulbuild”。
+         正在对“Debug\FFmpegSdlTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VideoProject\FFmpegAndSDL\pc_FFmpegSdl\FFmpegSdlTest\FFmpegSdlTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.19
